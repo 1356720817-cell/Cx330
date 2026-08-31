@@ -1,0 +1,15 @@
+interface:
+  display_name: creating general video covers
+  short_description: Use when a user wants to create, generate, design, or produce
+    a video cover/thumbnail for short-form or long-form video platforms, whether they
+    explicitly name this skill or use natural-language requests such as “生成视频封面”,
+    “做个视频封面”, or “帮我设计封面”.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
